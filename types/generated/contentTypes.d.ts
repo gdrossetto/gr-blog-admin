@@ -400,6 +400,7 @@ export interface ApiBlogPostBlogPost extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     resumo: Schema.Attribute.Text;
+    slug: Schema.Attribute.UID<'titulo'>;
     thumbnail: Schema.Attribute.Media<'images' | 'files'>;
     titulo: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;

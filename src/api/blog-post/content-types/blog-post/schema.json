@@ -35,6 +35,10 @@
         "preset": "defaultHtml"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titulo"
     }
   }
 }
